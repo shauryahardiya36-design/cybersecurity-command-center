@@ -1,0 +1,20 @@
+# 1. Setup - whitelist trusted devices once
+python3 whitelist_trusted_devices.py
+
+# 2. Run scan (no blocking yet)
+python3 -c "from core.port_scan import main; main()"
+
+# 3. Check results
+python3 cli.py report
+
+# 4. If threat found, manually review
+python3 cli.py wifi threats
+
+# 5. Run scan WITH blocking if you want to auto-stop threats
+sudo python3 -c "from core.port_scan import main; main()"
+
+# 6. Verify blocks
+python3 cli.py wifi blocked
+
+# 7. If false positive, unblock
+python3 cli.py wifi unblock 192.168.1.XX

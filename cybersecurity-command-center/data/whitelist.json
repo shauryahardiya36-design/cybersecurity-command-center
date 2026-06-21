@@ -1,0 +1,26 @@
+{
+  "192.168.1.1": {
+    "added_at": "2026-01-31T13:34:07.500203",
+    "reason": "Trusted home network - Router"
+  },
+  "192.168.1.2": {
+    "added_at": "2026-01-31T13:34:07.501857",
+    "reason": "Trusted home network - Smart Device"
+  },
+  "192.168.1.3": {
+    "added_at": "2026-01-31T13:34:07.503524",
+    "reason": "Trusted home network - Smart Device"
+  },
+  "192.168.1.4": {
+    "added_at": "2026-01-31T13:34:07.505098",
+    "reason": "Trusted home network - Home Device"
+  },
+  "192.168.1.11": {
+    "added_at": "2026-01-31T13:34:07.506627",
+    "reason": "Trusted home network - Home Device"
+  },
+  "192.168.1.14": {
+    "added_at": "2026-01-31T13:34:07.508421",
+    "reason": "Trusted home network - Home Device"
+  }
+}

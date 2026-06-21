@@ -1,0 +1,37 @@
+# SCANNING
+python3 -c "from core.port_scan import main; main()"
+sudo python3 -c "from core.port_scan import main; main()"
+
+# WHITELIST
+python3 cli.py whitelist add <IP> --reason "reason"
+python3 cli.py whitelist list
+python3 cli.py whitelist remove <IP>
+python3 whitelist_trusted_devices.py
+python3 auto_whitelist_home.py
+
+# BLACKLIST
+python3 cli.py blacklist add <IP> --reason "reason" --severity CRITICAL
+python3 cli.py blacklist list
+python3 cli.py blacklist remove <IP>
+
+# WIFI SECURITY
+python3 cli.py wifi blocked
+python3 cli.py wifi threats
+python3 cli.py wifi unblock <IP>
+
+# REPORTING
+python3 cli.py report
+python3 cli.py report list
+python3 cli.py report view <REPORT_ID>
+
+# DATABASE VIEWING
+cat data/scan_results.json
+cat data/whitelist.json
+cat data/blacklist.json
+cat data/blocked_ips.json
+cat data/arp_cache.json
+cat data/scan_history.json
+cat data/reports/report_<ID>.txt
+
+# AUTOMATIC SCANNING
+python3 setup_continuous_monitoring.py
