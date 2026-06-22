@@ -26,10 +26,6 @@ The project follows a decoupled, modular design to ensure scalability and clean 
 *   `core/`: Internal logic package handling raw socket networking, JSON state storage, scheduling workers, and blocking logic.
 
 ---
-
-## 💻 Installation & Setup
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/YOUR_USERNAME/cybersecurity-command-center.git](https://github.com/YOUR_USERNAME/cybersecurity-command-center.git)
-cd cybersecurity-command-center
+## Author & Credits
+* **Lead Developer / Sole Creator:** Shaurya Hardiya
+* This project was designed, coded, and maintained entirely by me. No external co-founders or co-developers were involved in the creation of this codebase.
