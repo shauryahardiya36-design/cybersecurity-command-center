@@ -1371,7 +1371,7 @@ For issues or questions:
 
 ---
 
-**Last Updated:** January 2024  
+**Last Updated:** June 2026
 **Version:** 1.0  
 **Python:** 3.7+  
 **Status:** Active Development
